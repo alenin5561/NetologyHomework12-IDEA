@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1b1bf6-8be9-4a91-ad29-adc401e8e626" name="Changes" comment="Настройки">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AfishaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PurchaseFilms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AfishaMangerTest.java" afterDir="false" />
+    <list default="true" id="8f1b1bf6-8be9-4a91-ad29-adc401e8e626" name="Changes" comment="Сохраняем и выводим фильмы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AfishaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AfishaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AfishaMangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AfishaMangerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,7 +44,46 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AfishaMangerTest">
+    <configuration name="AfishaMangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NetologyHomework12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AfishaMangerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfishaMangerTest.SaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NetologyHomework12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AfishaMangerTest" />
+      <option name="METHOD_NAME" value="SaveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfishaMangerTest.ShowInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NetologyHomework12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AfishaMangerTest" />
+      <option name="METHOD_NAME" value="ShowInOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfishaMangerTest.ShowLimitFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NetologyHomework12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AfishaMangerTest" />
+      <option name="METHOD_NAME" value="ShowLimitFilms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AfishaMangerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NetologyHomework12" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,7 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AfishaMangerTest" />
         <item itemvalue="JUnit.AfishaMangerTest.test" />
+        <item itemvalue="JUnit.AfishaMangerTest.ShowLimitFilms" />
+        <item itemvalue="JUnit.AfishaMangerTest.ShowInOrder" />
+        <item itemvalue="JUnit.AfishaMangerTest.SaveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658822071762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сохраняем и выводим фильмы">
+      <created>1658831275209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658831275209</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сохраняем и выводим фильмы">
+      <created>1658831324477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658831324477</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Настройки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настройки" />
+    <MESSAGE value="Сохраняем и выводим фильмы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сохраняем и выводим фильмы" />
   </component>
 </project>
