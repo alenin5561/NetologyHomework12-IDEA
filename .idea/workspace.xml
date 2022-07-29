@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1b1bf6-8be9-4a91-ad29-adc401e8e626" name="Changes" comment="Афиша">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8f1b1bf6-8be9-4a91-ad29-adc401e8e626" name="Changes" comment="Афиша(настройки)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +40,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.AfishaMangerTest">
     <configuration name="AfishaMangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NetologyHomework12" />
@@ -139,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658839963779</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Афиша(настройки)">
+      <created>1659122878512</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659122878512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Афиша(настройки)">
+      <created>1659123000883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659123000883</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +174,7 @@
     <MESSAGE value="Настройки" />
     <MESSAGE value="Сохраняем и выводим фильмы" />
     <MESSAGE value="Афиша" />
-    <option name="LAST_COMMIT_MESSAGE" value="Афиша" />
+    <MESSAGE value="Афиша(настройки)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Афиша(настройки)" />
   </component>
 </project>
