@@ -5,13 +5,14 @@ public class AfishaManager {
 
     //переменная для храниния количества фильмов
     private int limit;
+
     //конструктор без параметров
-    public   AfishaManager(){
+    public AfishaManager() {
         this.limit = 10;
     }
     //параметризированный конструктор
 
-    public   AfishaManager(int limit){
+    public AfishaManager(int limit) {
         this.limit = limit;
     }
 
@@ -37,24 +38,24 @@ public class AfishaManager {
         return films;
     }
 
-        public PurchaseFilms[] findLast() {
+    public PurchaseFilms[] findLast() {
         int resultLength;
-        if(limit < films.length) {
+        if (limit < films.length) {
             resultLength = limit;
-        }else {
+        } else {
             resultLength = films.length;
         }
-            //создаю массив
-            PurchaseFilms[] tmp = new PurchaseFilms[resultLength];
-            //прохожу по всей длине массива
-            for (int i = 0; i < tmp.length; i++) {
-                //копирую заполненые ячейки в обратном порядке
-                tmp[i] = films[films.length - 1 - i];
-            }
-            return tmp;
+        //создаю массив
+        PurchaseFilms[] tmp = new PurchaseFilms[resultLength];
+        //прохожу по всей длине массива
+        for (int i = 0; i < tmp.length; i++) {
+            //копирую заполненые ячейки в обратном порядке
+            tmp[i] = films[films.length - 1 - i];
         }
+        return tmp;
+    }
 
 
-        }
+}
 
 
