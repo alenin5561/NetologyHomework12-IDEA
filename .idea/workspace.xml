@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f1b1bf6-8be9-4a91-ad29-adc401e8e626" name="Changes" comment="Афиша(настройки)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AfishaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AfishaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AfishaMangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AfishaMangerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659123477967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Афиша(настройки)">
+      <created>1659685887295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659685887295</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,14 +3,15 @@ public class AfishaManager {
     //переменная типа массив для сохранения фильмов
     private PurchaseFilms[] films = new PurchaseFilms[0];
 
-    //переменная для храниния количества фильмов
+    //переменная для хранения количества фильмов
     private int limit;
 
     //конструктор без параметров
     public AfishaManager() {
         this.limit = 10;
     }
-    //параметризированный конструктор
+
+    //параметризованный конструктор
 
     public AfishaManager(int limit) {
         this.limit = limit;
@@ -26,7 +27,7 @@ public class AfishaManager {
             //сохраняю в новый массив , содержимое первого массива
             tmp[i] = films[i];
         }
-        //Необходимо заполнить ячейку,поэтому переношу параметр который указваю в новый массив
+        //Необходимо заполнить ячейку,поэтому переношу параметр который указываю в новый массив
         tmp[tmp.length - 1] = film;
         //отмечаю что первый массив это новый массив
         films = tmp;
@@ -49,7 +50,7 @@ public class AfishaManager {
         PurchaseFilms[] tmp = new PurchaseFilms[resultLength];
         //прохожу по всей длине массива
         for (int i = 0; i < tmp.length; i++) {
-            //копирую заполненые ячейки в обратном порядке
+            //копирую заполненные ячейки в обратном порядке
             tmp[i] = films[films.length - 1 - i];
         }
         return tmp;
